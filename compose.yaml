@@ -1,0 +1,24 @@
+﻿services:
+  msq:
+    image: msq
+    build:
+      context: .
+      dockerfile: MSQ/Dockerfile
+
+  msq-1:
+    image: msq-1
+    build:
+      context: .
+      dockerfile: MSQ/Dockerfile
+
+  raids:
+    image: raids
+    build:
+      context: .
+      dockerfile: Raids/Dockerfile
+
+  trials:
+    image: trials
+    build:
+      context: .
+      dockerfile: Trials/Dockerfile
