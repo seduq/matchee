@@ -1,6 +1,0 @@
-@MSQ_HostAddress = http://localhost:5114
-
-GET {{MSQ_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
